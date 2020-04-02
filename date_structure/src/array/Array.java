@@ -7,8 +7,6 @@ import java.util.List;
 public class Array {
 
     public static void main(String[] args) {
-
-
     /**
      * 1、Java数组介绍
      *      在Java中，数组是用来存放同一种数据类型的集合，注意只能存放同一种数据类型(Object类型数组除外)。
@@ -79,5 +77,37 @@ public class Array {
 
         //如何查看数组是否包含某个元素
         myArray4.toString().contains("2");
+
+
+        /*****************************************************************************
+         *      数组的基本操作
+         *      Insert——在指定索引位置插入一个元素
+         */
+        //创建一个数组
+        Object [] array = new Object[5];
+
+        array[0] = "我";
+        array[1] = "爱";
+        array[2] = "学习";
+
+        /**
+         * Get——返回指定索引位置的元素
+         */
+
+        String getArray = array[0].toString();
+        Object getArray2 = array[1];
+
+        /**
+         * Delete——删除指定索引位置的元素
+         */
+
+        List<Object> arrayList = new ArrayList(Arrays.asList(array));
+        arrayList.remove(1);
+
+        /**
+         * Size——得到数组所有元素的数量
+         */
+        int length = array.length;
+
     }
 }

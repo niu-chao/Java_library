@@ -1,0 +1,19 @@
+
+Y
+java:S1854"<Remove this useless assignment to local variable "myArray2".(î¿¥Ÿ8˜ù¦“.
+B
+java:S2116Q"%Use "Arrays.toString(array)" instead.(İšõ8¿€’©“.
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(Àë¹÷8åÄ¦“.
+U
+java:S1854N"8Remove this useless assignment to local variable "list".(úüÒÍ8™ˆĞ§“.
+F
+java:S1481N")Remove this unused "list" local variable.(úüÒÍ8™ˆĞ§“.
+Y
+java:S1854"<Remove this useless assignment to local variable "myArray1".(€úÄ8åÄ¦“.
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(Îã«ñ8Ü§ø¦“.
+J
+java:S1481"-Remove this unused "myArray2" local variable.(î¿¥Ÿ8˜ù¦“.
+J
+java:S1481"-Remove this unused "myArray1" local variable.(€úÄ8åÄ¦“.
+I
+java:S2201Q",The return value of "contains" must be used.(İšõ8£„˜©“.
