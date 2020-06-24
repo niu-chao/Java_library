@@ -1,0 +1,23 @@
+
+s
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(ë™Ùµøÿÿÿÿ8¥‰ç…˜.
+Z
+java:S1197D"8Move the array designator from the variable to the type.(ö”«ßüÿÿÿÿ8éî…˜.
+Z
+java:S1197,"8Move the array designator from the variable to the type.(ùçûĞúÿÿÿÿ8êûè…˜.
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(ŞÄ·úÿÿÿÿ8éî…˜.
+~
+java:S1488&"\Immediately return this expression instead of assigning it to the temporary variable "root".(Ÿä¶ûûÿÿÿÿ8êûè…˜.
+Z
+java:S1197!"8Move the array designator from the variable to the type.(ø—Èúÿÿÿÿ8êûè…˜.
+Z
+java:S1197!"8Move the array designator from the variable to the type.(ø—Èúÿÿÿÿ8êûè…˜.
+r
+java:S1104"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ8¥‰ç…˜.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ºü¹‰
+Z
+java:S1197E"8Move the array designator from the variable to the type.(™°³ƒüÿÿÿÿ8éî…˜.
+m
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(ŠËÌç8¥‰ç…˜.
+U
+java:S1197+"8Move the array designator from the variable to the type.(ƒÔûƒ8êûè…˜.

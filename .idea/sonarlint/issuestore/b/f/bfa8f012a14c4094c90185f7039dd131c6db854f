@@ -1,0 +1,12 @@
+
+V	java:S106¸"9Replace this use of System.out or System.err by a logger.(¡‡¿·8ø½’—.
+X
+java:S26968"6Make the enclosing method "static" or remove this set.(Óóóÿÿÿÿÿ8ø½’—.
+F
+java:S30101"$Remove this assignment of "maxHeap".(Õ†¤½ûÿÿÿÿ8ø½’—.
+V	java:S106³"9Replace this use of System.out or System.err by a logger.(Æ¦”‰8ø½’—.
+[
+java:S1155P">Use isEmpty() to check whether the collection is empty or not.(”ã­‘8ø½’—.
+V	java:S106½"9Replace this use of System.out or System.err by a logger.(Èòö8ø½’—.
+8
+java:S1700"Rename field "twitter"(„ı³‚ÿÿÿÿÿ8ø½’—.

@@ -1,0 +1,6 @@
+
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(çù±Ù8Û²Ú¬.
+o
+java:S3776&"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Üö¬Õ8öÔ©Ú¬.
+Q
+java:S3740'"/Provide the parametrized type for this generic.(ÓŞ§øøÿÿÿÿ8ÆüåÚ¬.

@@ -1,0 +1,28 @@
+
+V
+java:S4973"9Use the "equals" method if value comparison was intended.(ŸÚ„˜8Ó‘ƒ®.
+R
+java:S1854""5Remove this useless assignment to local variable "g".(ÂÜû®8±›™ƒ®.
+D
+java:S1481."'Remove this unused "h4" local variable.(Ê¼ÓÑ8öÀ·ƒ®.
+C
+java:S1481""&Remove this unused "g" local variable.(ÂÜû®8±›™ƒ®.
+I
+java:S1481#"'Remove this unused "s1" local variable.(ÎÏËÊşÿÿÿÿ8‹Æƒ®.
+V
+java:S4973"9Use the "equals" method if value comparison was intended.(¥›ş“8×ƒ®.
+S
+java:S1854-"6Remove this useless assignment to local variable "h3".(¼äˆ¨8ŸÅ®ƒ®.
+W
+java:S1854!"5Remove this useless assignment to local variable "f".(”Õ±şÿÿÿÿ8±›™ƒ®.
+D
+java:S1481-"'Remove this unused "h3" local variable.(¼äˆ¨8ŸÅ®ƒ®.
+S
+java:S1854."6Remove this useless assignment to local variable "h4".(Ê¼ÓÑ8öÀ·ƒ®.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¥›ş“8Ü‹ƒ®.
+H
+java:S1481!"&Remove this unused "f" local variable.(”Õ±şÿÿÿÿ8±›™ƒ®.
+X
+java:S1854#"6Remove this useless assignment to local variable "s1".(ÎÏËÊşÿÿÿÿ8‹Æƒ®.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Œ€ÿ8¦Ë—ƒ®.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÚ„˜8Ó‘ƒ®.

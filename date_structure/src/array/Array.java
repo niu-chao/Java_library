@@ -1,113 +1,216 @@
 package array;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+/**
+ * @author: nc
+ * @description： 泛型，动态数组，扩容时，扩为原来的二倍
+ */
 
-public class Array {
+public class Array<E> {
 
-    public static void main(String[] args) {
+    private E[] data;
+    private int size;
+
     /**
-     * 1、Java数组介绍
-     *      在Java中，数组是用来存放同一种数据类型的集合，注意只能存放同一种数据类型(Object类型数组除外)。
-     *      　①、数组的声明
-     *
-     * 　　第一种方式：
-     *          数据类型 []  数组名称 = new 数据类型[数组长度];
-     * 　　这里 [] 可以放在数组名称的前面，也可以放在数组名称的后面，我们推荐放在数组名称的前面，这样看上去 数据类型 [] 表示的很明显是一个数组类型，而放在数组名称后面，则不是那么直观。
-     *
-     * 　　第二种方式：
-     *
-     *      数据类型 [] 数组名称 = {数组元素1，数组元素2，......}
-     * 　　这种方式声明数组的同时直接给定了数组的元素，数组的大小由给定的数组元素个数决定。
+     * 狗仔函数，传入数组的容量
+     * @param capacity
      */
-
-           //声明数组1,声明一个长度为3，只能存放int类型的数据
-           int [] myArray1 = new int[3];
-           //声明数组2,声明一个数组元素为 1,2,3的int类型数组
-           int [] myArray2 = {1,2,3};
-
-     /**
-     *      ②、访问数组元素以及给数组元素赋值
-     *
-     * 　　数组是存在下标索引的，通过下标可以获取指定位置的元素，数组小标是从0开始的，也就是说下标0对应的就是数组中第1个元素，可以很方便的对数组中的元素进行存取操作。
-     *
-     * 　　前面数组的声明第二种方式，我们在声明数组的同时，也进行了初始化赋值。
-      */
-      //声明数组,声明一个长度为3，只能存放int类型的数据
-      int [] myArray3 = new int[3];
-      //给myArray第一个元素赋值1
-        myArray3[0] = 1;
-      //访问myArray的第一个元素
-      System.out.println(myArray3[0]);
-
-     /**
-     * 　　上面的myArray 数组，我们只能赋值三个元素，也就是下标从0到2，如果你访问 myArray[3] ，那么会报数组下标越界异常。
-     *
-     * 　　③、数组遍历
-     *
-     * 　　数组有个 length 属性，是记录数组的长度的，我们可以利用length属性来遍历数组。
-     */
-      //声明数组2,声明一个数组元素为 1,2,3的int类型数组
-      int [] myArray4 = {1,2,3};
-      for(int i = 0 ; i < myArray4.length ; i++){
-          System.out.println(myArray4[i]);
-      }
-
-        /**
-         * 数组的局限性分析：
-         *
-         * 　　①、插入快，对于无序数组，上面我们实现的数组就是无序的，即元素没有按照从大到小或者某个特定的顺序排列，只是按照插入的顺序排列。无序数组增加一个元素很简单，只需要在数组末尾添加元素即可，但是有序数组却不一定了，它需要在指定的位置插入。
-         *
-         * 　　②、查找慢，当然如果根据下标来查找是很快的。但是通常我们都是根据元素值来查找，给定一个元素值，对于无序数组，我们需要从数组第一个元素开始遍历，直到找到那个元素。有序数组通过特定的算法查找的速度会比无需数组快，后面我们会讲各种排序算法。
-         *
-         * 　　③、删除慢，根据元素值删除，我们要先找到该元素所处的位置，然后将元素后面的值整体向前面移动一个位置。也需要比较多的时间。
-         *
-         * 　　④、数组一旦创建后，大小就固定了，不能动态扩展数组的元素个数。如果初始化你给一个很大的数组大小，那会白白浪费内存空间，如果给小了，后面数据个数增加了又添加不进去了。
-         *
-         * 　　很显然，数组虽然插入快，但是查找和删除都比较慢，而且扩展性差，所以我们一般不会用数组来存储数据
-         */
-
-        /**
-         * 常用方法
-         */
-
-        //.将数组转化为ArrayList  Arrays.asList(数组)
-        List<String> list = new ArrayList(Arrays.asList(myArray4));
-
-        //如何查看数组是否包含某个元素
-        myArray4.toString().contains("2");
-
-
-        /*****************************************************************************
-         *      数组的基本操作
-         *      Insert——在指定索引位置插入一个元素
-         */
-        //创建一个数组
-        Object [] array = new Object[5];
-
-        array[0] = "我";
-        array[1] = "爱";
-        array[2] = "学习";
-
-        /**
-         * Get——返回指定索引位置的元素
-         */
-
-        String getArray = array[0].toString();
-        Object getArray2 = array[1];
-
-        /**
-         * Delete——删除指定索引位置的元素
-         */
-
-        List<Object> arrayList = new ArrayList(Arrays.asList(array));
-        arrayList.remove(1);
-
-        /**
-         * Size——得到数组所有元素的数量
-         */
-        int length = array.length;
-
+    public Array(int  capacity) {
+        data = (E[]) new Object[capacity];
+        size = 0;
     }
+
+    /**
+     * 无参构造,默认容量为10
+     */
+    public Array(){
+        this(10);
+    }
+
+    /**
+     * 获取数组中元素个数
+     */
+    public int getSize(){
+        return size;
+    }
+
+    /**
+     *
+     * 获取数组的容量
+     */
+    public int getCapacity(){
+        return data.length;
+    }
+
+    /**
+     * 返回数组是否为空
+     */
+    public boolean isEmpty(){
+        return size == 0;
+    }
+
+
+    /**
+     * 向数组最后加元素
+     * @param e
+     */
+    public void addLast(E e){
+        add(size,e);
+    }
+
+
+    /**
+     * 向数组添加第一个位置的元素
+     */
+
+    public void addFirst(E e){
+        add(0,e);
+    }
+
+    /**
+     * 向指定index添加元素
+     * @param index
+     * @param e
+     */
+    public void add(int index , E e){
+        //判断index是否合法
+        if(index < 0 && index > size){
+            throw new IllegalAccessError("index id error");
+        }
+
+        //判断容量是否超出
+        if(size == data.length){
+            resize(2 * data.length);
+        }
+
+        //将index后面的元素后移
+        for(int i = size ; i >= index ; i--){
+            data[i+1] = data[i];
+        }
+
+        //赋值到index
+        data[index] = e;
+        size++;
+    }
+
+    /**
+     * 获取指定位置的值
+     * @param index
+     * @return
+     */
+    public E get(int index){
+        if(index < 0 && index > size){
+            throw new IllegalAccessError("idnex is error");
+        }
+        return data[index];
+    }
+
+    public void set(int index , E e){
+        if(index < 0 && index > size){
+            throw new IllegalAccessError("idnex is error");
+        }
+        data[index] = e;
+    }
+
+    /**
+     * 查找数组中是否有该元素
+     */
+    public boolean contains(E e){
+        for (int i = 0 ; i < size ; i++) {
+            if (data[i].equals(e)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 查找元素e在数组中的索引
+     * @param e
+     * @return
+     */
+    public int find(E e) {
+        for (int i = 0 ; i < size ; i++) {
+            if (data[i].equals(e)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 获取最后一个元素
+     */
+    public  E getLast() {
+      return get(size - 1);
+    }
+
+    /**
+     * 删除索引为index的值
+     * @param index
+     * @return
+     */
+    public E remove(int index) {
+        if (index < 0 && index > size) {
+            throw new IllegalAccessError("index id error");
+        }
+
+        E ret = data[index];
+
+        for (int i = index ; i < size ; i++) {
+            data[i] = data[i + 1];
+        }
+        size --;
+        data[size] = null;
+        return ret;
+    }
+
+    /**
+     * 删除第一个元素
+     */
+    public E removeFirst() {
+        return remove(0);
+    }
+
+    /**
+     * 删除最后一个元素
+     */
+    public E removeLast() {
+        return remove(size - 1);
+    }
+
+    /**
+     * 删除数组中的元素
+     */
+    public void removeElement(E e) {
+        int index = find(e);
+        if (index != -1) {
+            remove(index);
+        }
+    }
+
+    public String toString() {
+        StringBuilder str = new StringBuilder();
+        str.append(String.format("Array:size = %d\n ,capacity = %d\n",size ,data.length));
+        str.append("[");
+        for (int i = 0 ; i < size ; i++) {
+            str.append(data[i]);
+            if (i != size - 1) {
+                str.append(",");
+            }
+        }
+        str.append("]");
+        return str.toString();
+    }
+
+    /**
+     * 扩容
+     */
+    private void resize(int newCapacity) {
+        E [] newData = (E[]) new Object[newCapacity];
+        for (int i = 0 ; i < size ; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
+    }
+
 }

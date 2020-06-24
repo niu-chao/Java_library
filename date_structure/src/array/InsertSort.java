@@ -26,6 +26,7 @@ public class InsertSort {
             int temp = array[i];
             j=i;
             //从已经排序的序列最右边的开始比较，找到比其小的数
+            // j 经过j--后会改变，最后一行的 array[j] 的J变为确定位置后的j
             while (j>0 && temp < array[j-1]){
                 array[j] = array[j-1];
                 j--;

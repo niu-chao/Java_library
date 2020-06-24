@@ -1,0 +1,21 @@
+
+o
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(‹”¾Î8ïØúŞ—.
+=
+java:S1659Ã"Declare "m" on a separate line.(±‰ÓÑ8îÒã—.
+=
+java:S1659Ô"Declare "y" on a separate line.(şÍò©8îÒã—.
+j
+java:S1223“"LRename this method to prevent any misunderstanding or make it a constructor.(æš²8ïØúŞ—.
+<
+java:S1659k"Declare "c" on a separate line.(ë×±€8ïØúŞ—.
+j
+java:S1223°"LRename this method to prevent any misunderstanding or make it a constructor.(—Øİ8ïØúŞ—.
+p
+java:S3776“"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(æš²8ïØúŞ—.
+o	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÜ‰Çıÿÿÿÿ8ïØúŞ—.
+h	java:S101-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜İZ8ïØúŞ—.
+j	java:S100Y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª±ıà8ïØúŞ—.
+j	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹”¾Î8ïØúŞ—.
+C
+java:S1659³" Declare "nc" on a separate line.(¢ –©úÿÿÿÿ8ïØúŞ—.

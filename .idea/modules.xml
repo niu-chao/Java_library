@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDK8_features/JDK8_features.iml" filepath="$PROJECT_DIR$/JDK8_features/JDK8_features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Util/Util.iml" filepath="$PROJECT_DIR$/Util/Util.iml" />
       <module fileurl="file://$PROJECT_DIR$/date_structure/date_structure.iml" filepath="$PROJECT_DIR$/date_structure/date_structure.iml" />
     </modules>
   </component>

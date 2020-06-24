@@ -1,0 +1,10 @@
+
+Z
+java:S1197"8Move the array designator from the variable to the type.(™ÌÛ†þÿÿÿÿ8º¼Ëˆ£.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±«ùŠ
+U
+java:S1197%"8Move the array designator from the variable to the type.(—ðÏÃ8º¼Ëˆ£.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(ò¨ÞÆ8º¼Ëˆ£.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(ŠÜâ³ûÿÿÿÿ8º¼Ëˆ£.
+|
+java:S1149("_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ô›Š°8º¼Ëˆ£.

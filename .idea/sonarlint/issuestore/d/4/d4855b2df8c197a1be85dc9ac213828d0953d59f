@@ -1,0 +1,10 @@
+
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8šÅãı¤.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(“œüÿÿÿÿ8ĞÛ÷ı¤.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨©¡Å8ßÎäı¤.
+W
+java:S2209"5Change this instance-reference to a static reference.(ıâ×ªşÿÿÿÿ8ÓŒïı¤.
+l
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(ƒÿ¹™ûÿÿÿÿ8šÅãı¤.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıâ×ªşÿÿÿÿ8­¤éı¤.
