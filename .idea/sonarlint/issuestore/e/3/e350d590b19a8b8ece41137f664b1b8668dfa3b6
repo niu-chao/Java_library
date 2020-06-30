@@ -1,11 +1,9 @@
 
 J
 java:S1481"(Remove this unused "skt" local variable.(‘ËÃÚùÿÿÿÿ8õì®ü¤.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Şè±×ùÿÿÿÿ8¸ÍÁü¤.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8îÊü¤.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ß×È€şÿÿÿÿ8ÿÁü¤.
 f
 java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(é¥¤ƒûÿÿÿÿ8¸ÍÁü¤.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ß×È€şÿÿÿÿ8ÿÁü¤.
-Y
-java:S1854"7Remove this useless assignment to local variable "skt".(é¥¤ƒûÿÿÿÿ8¸ÍÁü¤.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Şè±×ùÿÿÿÿ8¸ÍÁü¤.
 U	java:S106"9Replace this use of System.out or System.err by a logger.(°ı¸°8æ†Æü¤.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8îÊü¤.

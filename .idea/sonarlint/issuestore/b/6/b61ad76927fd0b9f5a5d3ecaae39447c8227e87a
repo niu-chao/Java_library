@@ -1,6 +1,6 @@
 
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿è®Î8ÈðÏ€¥.
 W
 java:S1161":Add the "@Override" annotation above this method signature(Á»›ê8‚¼°€¥.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¿è®Î8ÈðÏ€¥.
 W
 java:S1161":Add the "@Override" annotation above this method signature(“–ýþ8§Öµ€¥.

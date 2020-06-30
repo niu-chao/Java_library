@@ -1,24 +1,24 @@
 
-W
-java:S1161L":Add the "@Override" annotation above this method signature(“–ış8Ë‹³ ¥.
-F
-java:S1125")Remove the literal "false" boolean value.(¶§Üˆ8úÕŸ¥.
-Z	java:S106O"9Replace this use of System.out or System.err by a logger.(“€Ü©ıÿÿÿÿ8°—¶ ¥.
-h
-java:S2142S"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8ıš½ ¥.
 U	java:S106?"9Replace this use of System.out or System.err by a logger.(Ôäÿ8„“‰ ¥.
-J	java:S108S")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8ıš½ ¥.
-E
-java:S1125$"(Remove the literal "true" boolean value.(˜Éğ¤8‡ÖêŸ¥.
 K
 java:S2140R")Use "java.util.Random.nextInt()" instead.(ˆß½åıÿÿÿÿ8ıš½ ¥.
 c
-java:S2142'"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ï€ìŸ¥.
-E	java:S108")Either remove or fill this block of code.(ä ¹€8úÕŸ¥.
-h
-java:S2184R"FCast one of the operands of this multiplication operation to a "long".(ˆß½åıÿÿÿÿ8ıš½ ¥.
-c
 java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ı‹ØŸ¥.
-E	java:S108'")Either remove or fill this block of code.(ä ¹€8‡ÖêŸ¥.
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(“€Ü©ıÿÿÿÿ8°—¶ ¥.
+W
+java:S1161L":Add the "@Override" annotation above this method signature(“–ış8Ë‹³ ¥.
+E
+java:S1125$"(Remove the literal "true" boolean value.(˜Éğ¤8‡ÖêŸ¥.
+c
+java:S2142'"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ï€ìŸ¥.
 W
 java:S1161;":Add the "@Override" annotation above this method signature(“–ış8É—„ ¥.
+F
+java:S1125")Remove the literal "false" boolean value.(¶§Üˆ8úÕŸ¥.
+E	java:S108")Either remove or fill this block of code.(ä ¹€8úÕŸ¥.
+E	java:S108'")Either remove or fill this block of code.(ä ¹€8‡ÖêŸ¥.
+h
+java:S2142S"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8ıš½ ¥.
+J	java:S108S")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8ıš½ ¥.
+h
+java:S2184R"FCast one of the operands of this multiplication operation to a "long".(ˆß½åıÿÿÿÿ8ıš½ ¥.

@@ -1,0 +1,12 @@
+
+e
+java:S3518"CMake sure this expression can't be zero before doing this division.(íè¥ßúÿÿÿÿ8ñ±šø¯.
+R
+java:S1143"5Remove this return statement from this finally block.(›…Ú8•ãø¯.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íè¥ßúÿÿÿÿ8ñ±šø¯.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(·ÏÑ¿8ÔÏšø¯.
+Y
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(’ä¯‡
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Şù­
+U	java:S106"9Replace this use of System.out or System.err by a logger.(°ô¸ª8®è•ø¯.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(œ”Í«øÿÿÿÿ8ø¯.

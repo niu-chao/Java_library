@@ -1,16 +1,16 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8ëýý÷­.
-Z	java:S106D"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8Š¶²ø­.
 U	java:S106-"9Replace this use of System.out or System.err by a logger.(çÁÍ†8Ï»“ø­.
-X	java:S1258"<This block of commented-out lines of code should be removed.(Ë’²—8€ÙÕø­.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤½»Ù
-Z	java:S106R"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ8ž…åø­.
-Z	java:S106/"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ8Ä·¸ø­.
-Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ8Ã¾áø­.
-]	java:S125U"<This block of commented-out lines of code should be removed.(ÜÃþØûÿÿÿÿ8¦Õíø­.
-s
-java:S1192"QDefine a constant instead of duplicating this literal "----------------" 3 times.(¶´›§þÿÿÿÿ8Ã¾áø­.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ8€èû÷­.
 Z	java:S106 "9Replace this use of System.out or System.err by a logger.(¬ÐË‹ùÿÿÿÿ8ƒòú÷­.
 N
 java:S1602Q",Remove useless curly braces around statement(ÿ½Úøÿÿÿÿ8ž…åø­.
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ8Ã¾áø­.
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8Š¶²ø­.
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ8ž…åø­.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8ëýý÷­.
+s
+java:S1192"QDefine a constant instead of duplicating this literal "----------------" 3 times.(¶´›§þÿÿÿÿ8Ã¾áø­.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ8€èû÷­.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(¶´›§þÿÿÿÿ8Ä·¸ø­.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤½»Ù
+]	java:S125U"<This block of commented-out lines of code should be removed.(ÜÃþØûÿÿÿÿ8¦Õíø­.
+X	java:S1258"<This block of commented-out lines of code should be removed.(Ë’²—8€ÙÕø­.

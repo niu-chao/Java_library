@@ -2,7 +2,7 @@ package singleton;
 
 /**
  * @author: nc
- * @description：
+ * @description： 验证普通类的实例对象是否相同
  *
  * 普通类的各个实例对象是不同的，单例模式的各个实例对象在正常情况下是相同的。
  */

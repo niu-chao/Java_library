@@ -1,0 +1,14 @@
+
+T
+java:S3518"7Make sure "b" can't be zero before doing this division.(íÉÌ«8–úø¯.
+Y
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(ÔƒÜç
+<
+java:S1659"Declare "b" on a separate line.(Ï¸¥Û8–úø¯.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(À¥şÈûÿÿÿÿ8–úø¯.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(í¤øƒøÿÿÿÿ8«ëŒø¯.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ƒĞ¯äıÿÿÿÿ8¢¦ˆø¯.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Şù­
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8œÚ„ø¯.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÏĞñûÿÿÿÿ8ë³†ø¯.

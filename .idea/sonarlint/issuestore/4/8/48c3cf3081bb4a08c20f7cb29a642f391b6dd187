@@ -1,35 +1,23 @@
 
-L
-java:S3740L"/Provide the parametrized type for this generic.(úüÒÍ8Í×™Ó¬.
-Y
-java:S1854"<Remove this useless assignment to local variable "myArray1".(€úÄ8åÄ¦“.
-I
-java:S2201O",The return value of "contains" must be used.(İšõ8£„˜©“.
-^
-java:S1854a"<Remove this useless assignment to local variable "getArray".(É¡µ×üÿÿÿÿ8Í×™Ó¬.
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(Àë¹÷8åÄ¦“.
 B
 java:S2116O"%Use "Arrays.toString(array)" instead.(İšõ8¿€’©“.
-Y
-java:S1854"<Remove this useless assignment to local variable "myArray2".(î¿¥Ÿ8˜ù¦“.
-J
-java:S1481"-Remove this unused "myArray1" local variable.(€úÄ8åÄ¦“.
-O
-java:S1481a"-Remove this unused "getArray" local variable.(É¡µ×üÿÿÿÿ8Í×™Ó¬.
 L
 java:S3740h"/Provide the parametrized type for this generic.(é«â—8Í×™Ó¬.
-J
-java:S1481"-Remove this unused "myArray2" local variable.(î¿¥Ÿ8˜ù¦“.
 M
 java:S1481n"+Remove this unused "length" local variable.(Á¸¶³ıÿÿÿÿ8Í×™Ó¬.
-U
-java:S1854L"8Remove this useless assignment to local variable "list".(úüÒÍ8™ˆĞ§“.
+J
+java:S1481"-Remove this unused "myArray2" local variable.(î¿¥Ÿ8˜ù¦“.
+L
+java:S3740L"/Provide the parametrized type for this generic.(úüÒÍ8Í×™Ó¬.
+O
+java:S1481a"-Remove this unused "getArray" local variable.(É¡µ×üÿÿÿÿ8Í×™Ó¬.
+J
+java:S1481"-Remove this unused "myArray1" local variable.(€úÄ8åÄ¦“.
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(Îã«ñ8Ü§ø¦“.
 P
 java:S1481b".Remove this unused "getArray2" local variable.(ü©Ìİûÿÿÿÿ8Í×™Ó¬.
-U	java:S1066"9Replace this use of System.out or System.err by a logger.(Îã«ñ8Ü§ø¦“.
-\
-java:S1854n":Remove this useless assignment to local variable "length".(Á¸¶³ıÿÿÿÿ8Í×™Ó¬.
-_
-java:S1854b"=Remove this useless assignment to local variable "getArray2".(ü©Ìİûÿÿÿÿ8Í×™Ó¬.
 F
 java:S1481L")Remove this unused "list" local variable.(úüÒÍ8™ˆĞ§“.
+I
+java:S2201O",The return value of "contains" must be used.(İšõ8£„˜©“.
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(Àë¹÷8åÄ¦“.

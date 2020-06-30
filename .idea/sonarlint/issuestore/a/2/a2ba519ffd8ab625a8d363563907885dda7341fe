@@ -1,14 +1,14 @@
 
+_
+java:S2184""BCast one of the operands of this division operation to a "double".(²¦º©8£–ŒÑ£.
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(ò¨ŞÆ8½ëŠÑ£.
 Z
 java:S1197"8Move the array designator from the variable to the type.(™ÌÛ†şÿÿÿÿ8½ëŠÑ£.
+U
+java:S1197@"8Move the array designator from the variable to the type.(—ğÏÃ8½ëŠÑ£.
 |
 java:S1149C"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ô›Š°8½ëŠÑ£.
 C
 java:S2185""&Remove this silly call to "Math.floor"(²¦º©8£–ŒÑ£.
-Z	java:S106I"9Replace this use of System.out or System.err by a logger.(ŠÜâ³ûÿÿÿÿ8½ëŠÑ£.
-_
-java:S2184""BCast one of the operands of this division operation to a "double".(²¦º©8£–ŒÑ£.
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(´û 
-U	java:S106A"9Replace this use of System.out or System.err by a logger.(ò¨ŞÆ8½ëŠÑ£.
-U
-java:S1197@"8Move the array designator from the variable to the type.(—ğÏÃ8½ëŠÑ£.
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(ŠÜâ³ûÿÿÿÿ8½ëŠÑ£.

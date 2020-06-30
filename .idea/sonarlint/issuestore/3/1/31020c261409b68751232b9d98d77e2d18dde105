@@ -1,15 +1,15 @@
 
-|
-java:S11496"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ô›Š°8—óª©£.
-Z
-java:S1197"8Move the array designator from the variable to the type.(™ÌÛ†þÿÿÿÿ8—óª©£.
-U
-java:S11973"8Move the array designator from the variable to the type.(—ðÏÃ8—óª©£.
-U	java:S1064"9Replace this use of System.out or System.err by a logger.(ò¨ÞÆ8—óª©£.
-Z	java:S106<"9Replace this use of System.out or System.err by a logger.(ŠÜâ³ûÿÿÿÿ8—óª©£.
-b	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†±ŒÄ
 d
 java:S2184"BCast one of the operands of this division operation to a "double".(¡Ôï¢úÿÿÿÿ8êÿ«©£.
 H
 java:S2185"&Remove this silly call to "Math.floor"(¡Ôï¢úÿÿÿÿ8êÿ«©£.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(ŠÜâ³ûÿÿÿÿ8—óª©£.
+|
+java:S11496"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ô›Š°8—óª©£.
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†±ŒÄ
+U
+java:S11973"8Move the array designator from the variable to the type.(—ðÏÃ8—óª©£.
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(ò¨ÞÆ8—óª©£.
+Z
+java:S1197"8Move the array designator from the variable to the type.(™ÌÛ†þÿÿÿÿ8—óª©£.

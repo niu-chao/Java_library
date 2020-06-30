@@ -1,20 +1,20 @@
 
-z
-java:S1488?"]Immediately return this expression instead of assigning it to the temporary variable "prase".(íÁ8›Ôäÿ­.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ8„Œõş­.
-L
-java:S3740?"/Provide the parametrized type for this generic.(íÁ8›Ôäÿ­.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸŠÙÊ
+]	java:S125"<This block of commented-out lines of code should be removed.(¯€Œ÷ÿÿÿÿÿ8¿’¶ÿ­.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ù†Ğö
 N
 java:S1612+",Replace this lambda with a method reference.(¦ÿŸÅúÿÿÿÿ8ºÚ‚ş­.
-^
-java:S11265"AReplace this if-then-else statement by a single return statement.(ÔÒıÍ8ô½ş­.
-]	java:S125"<This block of commented-out lines of code should be removed.(¯€Œ÷ÿÿÿÿÿ8¿’¶ÿ­.
-I
-java:S1612C",Replace this lambda with a method reference.(¾®ŞÉ8›Ôäÿ­.
+z
+java:S1488?"]Immediately return this expression instead of assigning it to the temporary variable "prase".(íÁ8›Ôäÿ­.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŸŠÙÊ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ï’“ª8ùöş­.
 N
 java:S1612*",Replace this lambda with a method reference.(ÆÉßÓÿÿÿÿÿ8ºÚ‚ş­.
 N
 java:S1612B",Replace this lambda with a method reference.(Ë‹˜Øûÿÿÿÿ8›Ôäÿ­.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ï’“ª8ùöş­.
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ù†Ğö
+^
+java:S11265"AReplace this if-then-else statement by a single return statement.(ÔÒıÍ8ô½ş­.
+L
+java:S3740?"/Provide the parametrized type for this generic.(íÁ8›Ôäÿ­.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ8„Œõş­.
+I
+java:S1612C",Replace this lambda with a method reference.(¾®ŞÉ8›Ôäÿ­.

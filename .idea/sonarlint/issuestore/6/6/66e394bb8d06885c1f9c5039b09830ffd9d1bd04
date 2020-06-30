@@ -1,9 +1,9 @@
 
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(í¸£­úÿÿÿÿ8•àªõ¤.
-‰
-java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹£ş8½…«õ¤.
-9
-java:S1643"Use a StringBuilder instead.(–šÍí8•àªõ¤.
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(¼±úŞ8•àªõ¤.
 r
 java:S1450"URemove the "output" field and declare it as a local variable in the relevant methods.(ñ¬¹ª8•àªõ¤.
+9
+java:S1643"Use a StringBuilder instead.(–šÍí8•àªõ¤.
+‰
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¹£ş8½…«õ¤.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(¼±úŞ8•àªõ¤.
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(í¸£­úÿÿÿÿ8•àªõ¤.

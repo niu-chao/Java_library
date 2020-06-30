@@ -1,4 +1,4 @@
-package algorithm;
+package example;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
